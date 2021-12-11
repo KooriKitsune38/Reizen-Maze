@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {},
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald_block"
+            ],
+            "nbt": "{Battery:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "k.gen:add_1_battery"
+  }
+}

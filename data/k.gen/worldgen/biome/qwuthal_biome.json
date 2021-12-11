@@ -1,0 +1,33 @@
+{
+  "surface_builder": "minecraft:crimson_forest",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "desert",
+  "effects": {
+    "sky_color": 11329471,
+    "fog_color": 11329471,
+    "water_color": 20813,
+    "water_fog_color": 21781,
+    "grass_color": 29507,
+    "foliage_color": 29507,
+    "grass_color_modifier": "swamp",
+    "particle": {
+      "options": {
+        "type": "mycelium"
+      },
+      "probability": 0.1
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "creature": [
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

@@ -1,0 +1,19 @@
+{
+  "type": "k.gen:qwuthal_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 1897152521,
+    "settings": {
+      "biome": "k.gen:qwuthal_biome",
+      "layers": [
+        {
+          "block": "minecraft:air",
+          "height": 1
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

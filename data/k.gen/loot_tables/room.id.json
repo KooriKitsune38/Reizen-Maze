@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "weight": 40,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:corridor\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 45,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:t.corridor\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 40,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:4ways\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 30,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:medium\",k.sSize:2}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "1": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "player": {
+            "team": "LabJoined"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "k.gen:gen/killed"
+    }
+  }
