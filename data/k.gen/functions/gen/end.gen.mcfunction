@@ -6,9 +6,9 @@ schedule clear k.gen:gen/trigger/generate
 #> Tag
 tag @s add k.temp
 #> Sides
-execute if entity @s[tag=k.gCenter1] as @e[type=marker,tag=k.gSide,distance=..4,sort=nearest] at @s facing entity @e[type=marker,tag=k.temp] feet run function k.gen:gen/close.gen
-execute if entity @s[tag=k.gCenter2] as @e[type=marker,tag=k.gSide,distance=..8,sort=nearest] at @s facing entity @e[type=marker,tag=k.temp] feet run function k.gen:gen/close.gen
-execute if entity @s[tag=k.gCenter3] as @e[type=marker,tag=k.gSide,distance=..12,sort=nearest] at @s facing entity @e[type=marker,tag=k.temp] feet run function k.gen:gen/close.gen
+execute if entity @s[tag=k.gCenter1] as @e[type=marker,tag=k.gSide,distance=..4,sort=nearest] at @s facing entity @e[type=marker,tag=k.temp] feet run function k.gen:gen/close.wall
+execute if entity @s[tag=k.gCenter2] as @e[type=marker,tag=k.gSide,distance=..8,sort=nearest] at @s facing entity @e[type=marker,tag=k.temp] feet run function k.gen:gen/close.wall
+execute if entity @s[tag=k.gCenter3] as @e[type=marker,tag=k.gSide,distance=..11,sort=nearest] at @s facing entity @e[type=marker,tag=k.temp] feet run function k.gen:gen/close.wall
 #> Tag
 tag @s remove k.temp
 

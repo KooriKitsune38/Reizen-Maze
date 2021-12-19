@@ -1,7 +1,7 @@
 {
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "weight": 40,
@@ -11,6 +11,17 @@
                         {
                             "function": "set_nbt",
                             "tag": "{k.sName:\"k.gen:corridor\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 30,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:big.rum\",k.sSize:3}"
                         }
                     ]
                 },

@@ -12,10 +12,7 @@ function k.gen:gen/check.space
 # Function
 execute unless entity @s[tag=k.gColliding] positioned ^ ^ ^-1 run function k.gen:gen/start/place.structure
 
-# Rooms Count
-#> Count Centers
-execute store result score .rooms k.defVal if entity @e[type=marker,tag=k.gCenter]
 #> Repeat
-schedule function k.gen:gen/trigger/generate 5t replace
+schedule function k.gen:gen/trigger/generate 2t replace
 
 #say [Finished Generation]

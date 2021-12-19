@@ -1,4 +1,0 @@
-Summon marker temp depending on the Size of the room selected, so if size 1 position ^ ^ ^-4 summon marker temp.
-check for eve\ry center around and see if the marker is inside the range of another room.
-if inside the range, close wall.
-The temp should either be deleted afterwards (Most probable) or directly be the center of the generated structure (to replace the centers inside the structure file, so it's just needed to set up the sides)
