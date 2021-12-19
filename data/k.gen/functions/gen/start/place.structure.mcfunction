@@ -13,8 +13,10 @@ execute if data storage k.gen:gen {"k.curSize":1} run function k.gen:start/rot.1
 execute if data storage k.gen:gen {"k.curSize":2} run function k.gen:start/rot.2
 execute if data storage k.gen:gen {"k.curSize":3} run function k.gen:start/rot.3
 
-
 # Activate Block
 setblock ~ ~1 ~ redstone_block
+
+# Kill Self
+kill @s
 
 #say [Placed Structure]

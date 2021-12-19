@@ -11,8 +11,6 @@ execute if data storage k.gen:gen {"k.curSize":3} run function k.gen:gen/s.check
 # Check for nearby centers
 execute as @e[type=marker,tag=k.gCenter,distance=..50] at @s run function k.gen:gen/s.check/sort.centers
 
-particle barrier ^ ^ ^-4
-
 # Close Wall if collision
 execute if score .gCollided k.defVal matches 1 run function k.gen:gen/close.wall
 scoreboard players reset .gCollided k.defVal

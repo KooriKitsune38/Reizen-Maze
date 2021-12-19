@@ -12,9 +12,6 @@ function k.gen:gen/check.space
 # Function
 execute unless entity @s[tag=k.gColliding] positioned ^ ^ ^-1 run function k.gen:gen/start/place.structure
 
-# Kill Self
-kill @s
-
 # Rooms Count
 #> Count Centers
 execute store result score .rooms k.defVal if entity @e[type=marker,tag=k.gCenter]
