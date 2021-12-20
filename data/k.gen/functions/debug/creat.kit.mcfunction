@@ -1,8 +1,8 @@
 #> k.gen:debug/creat.kit
 
-give @s structure_block{display:{Name:'{"text":"Small Structure (1)","italic":false,"color": "magenta"}',Lore:['{"text": "Template for a Size1 structure. (5x5)","color": "aqua"}']},BlockEntityTag:{mode:"LOAD",name:"k.gen:templ.1",showboundingbox:true,ignoreEntities:false}}
-give @s structure_block{display:{Name:'{"text":"Medium Structure (2)","italic":false,"color": "magenta"}',Lore:['{"text": "Template for a Size2 structure. (15x15)","color": "aqua"}']},BlockEntityTag:{mode:"LOAD",name:"k.gen:templ.2",showboundingbox:true,ignoreEntities:false}}
-give @s structure_block{display:{Name:'{"text":"Big Structure (3)","italic":false,"color": "magenta"}',Lore:['{"text": "Template for a Size3 structure. (21x21))","color": "aqua"}']},BlockEntityTag:{mode:"LOAD",name:"k.gen:templ.3",showboundingbox:true,ignoreEntities:false}}
+give @s structure_block{display:{Name:'{"text":"Small Structure (1)","italic":false,"color": "magenta"}',Lore:['{"text": "Template for a Size1 structure. (5x5)","color": "aqua"}']},BlockEntityTag:{mode:"LOAD",name:"k.gen:templ.1",showboundingbox:1b,ignoreEntities:false}}
+give @s structure_block{display:{Name:'{"text":"Medium Structure (2)","italic":false,"color": "magenta"}',Lore:['{"text": "Template for a Size2 structure. (15x15)","color": "aqua"}']},BlockEntityTag:{mode:"LOAD",name:"k.gen:templ.2",showboundingbox:1b,ignoreEntities:false}}
+give @s structure_block{display:{Name:'{"text":"Big Structure (3)","italic":false,"color": "magenta"}',Lore:['{"text": "Template for a Size3 structure. (21x21))","color": "aqua"}']},BlockEntityTag:{mode:"LOAD",name:"k.gen:templ.3",showboundingbox:1b,ignoreEntities:false}}
 
 give @s llama_spawn_egg{Enchantments:[{}],display:{Name:'{"text": "Structure Side","italic":false,"color": "gold"}',Lore:['{"text": "Spawns an output which can generate.","color": "aqua"}','{"text": "Or delete the marker if placed onto another.","color": "aqua"}','{"text":""}','{"text":"Be Careful!","color": "red"}','{"text":"They generate outwardly,","color": "red"}','{"text":"and don\'t create one at the entrance!","color": "red"}']},EntityTag:{id:"marker",Tags:["k.gSpawnedSide","k.gMarker"]}}
 
