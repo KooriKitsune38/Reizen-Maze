@@ -1,6 +1,9 @@
 
 # Scoreboards
+#> Objectives
 scoreboard objectives add k.defVal dummy
+#> Values
+scoreboard players set .1 k.defVal 1
 
 # Storages
 data merge storage k.gen:gen {k.curStructure:""}

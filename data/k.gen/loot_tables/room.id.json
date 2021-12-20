@@ -101,6 +101,17 @@
                             "tag": "{k.sName:\"k.gen:r.parkour2\",k.sSize:2}"
                         }
                     ]
+                },
+                {
+                    "weight": 10,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:r.library1\",k.sSize:2}"
+                        }
+                    ]
                 }
             ]
         }
