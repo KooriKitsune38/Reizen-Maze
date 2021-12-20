@@ -1,4 +1,4 @@
-#> k.gen:debug/create.side
+#> k.gen:debug/place.marker
 
 # Align
 execute align xyz run tp @s ~.5 ~ ~.5
@@ -11,5 +11,5 @@ execute if entity @e[type=marker,tag=k.gMarker,tag=!k.temp,distance=...9] run ki
 
 # Tag
 tag @s remove k.temp
-tag @s remove k.gSpawnedSide
+tag @s remove k.gSpawnedMarker
 tag @s add k.gSide

@@ -5,6 +5,9 @@ scoreboard objectives add k.defVal dummy
 # Storages
 data merge storage k.gen:gen {k.curStructure:""}
 
+# Schedules
+schedule function k.gen:misc/lev.direction 1t replace
+
 ## Tell it's loaded ##
 tellraw @a [{"text": "--------------","italic": true,"strikethrough": true,"color": "#4B569A"},{"text":" [Dungeon Generator] ","color":"#6600B1","bold": true,"strikethrough": false},{"text": "--------------","italic": true,"strikethrough": true,"color": "#4B569A"}]
 tellraw @a {"text": ""}

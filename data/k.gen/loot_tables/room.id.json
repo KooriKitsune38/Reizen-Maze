@@ -4,68 +4,13 @@
             "rolls": 1,
             "entries": [
                 {
-                    "weight": 20,
+                    "weight": 30,
                     "type": "item",
                     "name": "oak_button",
                     "functions": [
                         {
                             "function": "set_nbt",
                             "tag": "{k.sName:\"k.gen:r.corridor1\",k.sSize:1}"
-                        }
-                    ]
-                },
-                {
-                    "weight": 20,
-                    "type": "item",
-                    "name": "oak_button",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{k.sName:\"k.gen:r.corridor2\",k.sSize:1}"
-                        }
-                    ]
-                },
-                {
-                    "weight": 20,
-                    "type": "item",
-                    "name": "oak_button",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{k.sName:\"k.gen:r.corridor3\",k.sSize:1}"
-                        }
-                    ]
-                },
-                {
-                    "weight": 40,
-                    "type": "item",
-                    "name": "oak_button",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{k.sName:\"k.gen:r.corridor1\",k.sSize:1}"
-                        }
-                    ]
-                },
-                {
-                    "weight": 40,
-                    "type": "item",
-                    "name": "oak_button",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{k.sName:\"k.gen:r.corridor2\",k.sSize:1}"
-                        }
-                    ]
-                },
-                {
-                    "weight": 45,
-                    "type": "item",
-                    "name": "oak_button",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{k.sName:\"k.gen:r.4ways1\",k.sSize:1}"
                         }
                     ]
                 },
@@ -76,7 +21,84 @@
                     "functions": [
                         {
                             "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:r.corridor2\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 30,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:r.corridor3\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 20,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:r.tcorridor1\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 20,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:r.tcorridor2\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 15,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:r.4ways1\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 15,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
                             "tag": "{k.sName:\"k.gen:r.4ways2\",k.sSize:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 15,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:r.parkour1\",k.sSize:2}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 15,
+                    "type": "item",
+                    "name": "oak_button",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{k.sName:\"k.gen:r.parkour2\",k.sSize:2}"
                         }
                     ]
                 }
