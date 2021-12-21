@@ -2,6 +2,7 @@
     "values": [
         "marker",
         "armor_stand",
-        "shulker"
+        "shulker",
+        "falling_block"
     ]
 }

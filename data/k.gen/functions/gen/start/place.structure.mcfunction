@@ -16,6 +16,9 @@ execute if data storage k.gen:gen {"k.curSize":3} run function k.gen:start/rot.3
 # Activate Block
 setblock ~ ~1 ~ redstone_block
 
+# Place Gate
+execute if score .rooms k.defVal > .halfRooms k.defVal if predicate k.gen:c25 run function k.gen:gen/place.gate
+
 # Kill Self
 kill @s
 
