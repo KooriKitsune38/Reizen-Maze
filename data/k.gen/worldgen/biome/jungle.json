@@ -10,8 +10,8 @@
   "effects": {
     "sky_color": 4343373,
     "fog_color": 6238256,
-    "water_color": 16723502,
-    "water_fog_color": 13984354,
+    "water_color": 15191075,
+    "water_fog_color": 3353861,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
@@ -19,16 +19,20 @@
       "offset": 2
     }
   },
-  "starts": [],
+  "starts": [
+  ],
   "spawners": {
-    "monster": [],
+    "monster": [
+    ],
     "water_creature": [],
     "water_ambient": [],
     "misc": []
   },
   "spawn_costs": {},
   "carvers": {
-    "air": []
+    "air": [
+    ]
   },
-  "features": []
+  "features": [
+  ]
 }
